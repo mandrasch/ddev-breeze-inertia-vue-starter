@@ -1,8 +1,6 @@
 # ddev-breeze-inertia-vue-starter
 
-Simple starter to play around with [InertiaJS](https://inertiajs.com/) and [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia) with help of the open source dev tool [DDEV](https://ddev.readthedocs.io/en/stable/) for PHP. It runs in browser via Gitpod or on your local machine.
-
-This repository was simply created by following the [DDEV Laravel Composer Quickstart](https://ddev.readthedocs.io/en/stable/users/cli-usage/#laravel-composer-setup-example) and adapting the [Laravel Breeze Inertia Vue](https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia) install commands for DDEV usage (see 2.)
+Simple starter to play around with [InertiaJS](https://inertiajs.com/) and [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia) with help of the open source dev tool [DDEV](https://ddev.readthedocs.io/en/stable/) for PHP. It runs in your browser (via [Gitpod DDEV launcher](https://drud.github.io/ddev-gitpod-launcher/)) or on your local machine via DDEV-local.
 
 ## 1. Play around ...
 
@@ -58,6 +56,8 @@ You can run `ddev exec npm run watch` to watch automatically for changes. Start 
 <hr>
 
 ## 2. How was this created?
+
+This repository was simply created by following the [DDEV Laravel Composer Quickstart](https://ddev.readthedocs.io/en/stable/users/cli-usage/#laravel-composer-setup-example) and adapting the [Laravel Breeze Inertia Vue](https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia) install commands for DDEV usage. The gitpod integration was made possible via [Gitpod DDEV launcher](https://drud.github.io/ddev-gitpod-launcher/) by by [rfay](https://github.com/rfay). 
 
 **DDEV Laravel Composer Quickstart**
 
