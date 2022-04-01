@@ -3,13 +3,16 @@ image: drupalpod/drupalpod-gitpod-base:20220311
 # ddev and composer are running as part of the prebuild
 # when starting a Gitpod workspace all docker images are ready
 tasks:
-  - init: |
+  - name: parepare
+    init: |
       time ddev debug download-images
       time .gitpod/project-setup.sh
     command: |
       ddev start -y
       ddev exec npm run watch 
-  - command: |
+  - name: terminal
+    openMode: split-left
+    command: |
       gp await-port 8080 && sleep 1 && gp preview $(gp url 8080)
       echo "The system is ready"
 
