@@ -7,9 +7,13 @@ tasks:
       time ddev debug download-images
       time .gitpod/project-setup.sh
     command: |
-      ddev start -y
+      gp sync-await prepare
       gp await-port 8080 && sleep 1 && gp preview $(gp url 8080)
       echo "The system is ready"
+  - command: |
+      ddev start -y
+      ddev exec npm run watch 
+      gp sync-done prepare
 
 vscode:
   extensions:
