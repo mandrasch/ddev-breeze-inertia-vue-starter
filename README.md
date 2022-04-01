@@ -105,3 +105,9 @@ Created via [ddev-gitpod-launcher](https://gitpod.io/#DDEV_REPO=https%3A%2F%2Fgi
 ## TODOs
 
 - [ ] Figure out if we can use [browsersync](https://laravel-mix.com/docs/6.0/browsersync) in Gitpod to reload the browser automagically.
+
+## License
+
+Nothing special added here what would be relevant for copyright, fork and change as you like without attribution to my person. Just added Laravels license (MIT License) to the whole repo to avoid confusion.
+
+The Laravel framework and InertiaJS are open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
