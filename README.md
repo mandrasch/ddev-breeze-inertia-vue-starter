@@ -1,3 +1,10 @@
+## Outdated
+
+Please see https://my-ddev-lab.mandrasch.eu/tutorials/nodejs-tools/vite.html for latest infos on DDEV + Vite. 🚀
+
+<br>
+<br>
+
 # ddev-breeze-inertia-vue-starter
 
 Simple demo installation to play around with [InertiaJS](https://inertiajs.com/) and [Laravel Breeze](https://laravel.com/docs/9.x/starter-kits#breeze-and-inertia). It was created with help of the open source tool [DDEV](https://ddev.readthedocs.io/en/stable/) for standardized PHP environments. It can be launched in your browser (_via [Gitpod](https://www.gitpod.io/) and [Gitpod DDEV launcher](https://drud.github.io/ddev-gitpod-launcher/)_) or on your local machine (_via [DDEV-local](https://ddev.readthedocs.io/en/stable/)_).
