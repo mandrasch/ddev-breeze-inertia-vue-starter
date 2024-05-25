@@ -1,6 +1,6 @@
 ## Outdated
 
-Please see https://my-ddev-lab.mandrasch.eu/tutorials/nodejs-tools/vite.html for latest infos on DDEV + Laravel + Vite. 🚀
+Please see https://github.com/mandrasch/ddev-laravel-vite for latest infos on DDEV + Laravel + Vite. 🚀
 
 <br>
 <br>
